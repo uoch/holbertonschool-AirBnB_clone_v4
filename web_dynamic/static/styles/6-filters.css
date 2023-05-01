@@ -50,7 +50,13 @@ button:hover {
     height: 100%;
     width: 25%;
 }
-
+.amenities input[type="checkbox"] {
+    margin-right: 10px;
+  }
+.amenities li {
+    display: flex;
+    align-items: center;
+}
 .popover {
     visibility: hidden;
     width: 100%;
